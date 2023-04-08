@@ -1,0 +1,53 @@
+.text {
+  color: #000000;
+  font-family: inter; }
+  .text-header {
+    font-size: 16px;
+    font-weight: 400; }
+  .text-p {
+    margin-top: 17px;
+    text-align: center; }
+
+h1 {
+  font-family: inter;
+  font-weight: 400;
+  margin-top: 225px;
+  text-align: center;
+  font-weight: 400; }
+
+.photo__main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .photo__main--1 {
+    width: 299px;
+    height: 463px;
+    margin-top: 88px; }
+  .photo__main--2 {
+    width: 345px;
+    height: 462px;
+    margin-top: 225px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-top: 23px;
+  margin-right: 20px; }
+
+a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+hr {
+  width: 1054px;
+  margin-top: 77px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000; }
