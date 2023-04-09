@@ -56,6 +56,36 @@
 .body__backgroundred {
   background-color: #a00000; }
 
+.btn {
+  font-family: inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding: 16px 20px;
+  margin-top: 119px;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 35px; }
+  .btn-nude {
+    width: 220px;
+    background-color: #ffecda;
+    color: #a00000;
+    border: 1px solid #a00000; }
+  .btn-red {
+    width: 260px;
+    background-color: #a00000;
+    color: #ffecda;
+    border: 1px solid #ffecda; }
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+    .btn:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; }
+
 nav {
   display: flex;
   justify-content: flex-end;
