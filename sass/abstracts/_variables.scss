@@ -9,7 +9,8 @@ $color-nude: #ffecda;
 .text {
     font-family: inter;
 
-    &-headerm {
+    &-headerm
+    &-headerl {
         color: $color-black;
         font-size: 16px;
         font-weight: 400;
@@ -35,7 +36,8 @@ $color-nude: #ffecda;
         text-align: center;  
         font-weight: 400;
 
-        &--m {
+        &--m
+        &--l {
             color: $color-black;
         }
 
@@ -51,6 +53,10 @@ $color-nude: #ffecda;
         font-weight: 400;
         font-size: 25px;
         margin-top: 20px;
+
+        &--l {
+            color: $color-black;
+        }
 
         &--c {
             color: $color-nude;
